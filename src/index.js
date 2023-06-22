@@ -3,6 +3,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ReactCompAndProp from "./components/ReactCompAndProp";
 import ReactStateAndLifecycle from "./components/ReactStateAndLifecycle";
+import ReactHandlingEvents from "./components/ReactHandlingEvents";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +11,7 @@ root.render(
   <>
     <ReactCompAndProp />
     <ReactStateAndLifecycle />
+    <ReactHandlingEvents />
     
   </>
 );
