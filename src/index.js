@@ -6,6 +6,7 @@ import ReactStateAndLifecycle from "./components/ReactStateAndLifecycle";
 import ReactHandlingEvents from "./components/ReactHandlingEvents";
 import ReactConditionalRendering from "./components/ReactConditionalRendering";
 import ReactListsAndKeys from "./components/ReactListsAndKeys";
+import ReactForm from "./components/ReactForm";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <ReactHandlingEvents />
     <ReactConditionalRendering />
     <ReactListsAndKeys />
+    <ReactForm />
     
   </>
 );
