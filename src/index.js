@@ -5,6 +5,7 @@ import ReactCompAndProp from "./components/ReactCompAndProp";
 import ReactStateAndLifecycle from "./components/ReactStateAndLifecycle";
 import ReactHandlingEvents from "./components/ReactHandlingEvents";
 import ReactConditionalRendering from "./components/ReactConditionalRendering";
+import ReactListsAndKeys from "./components/ReactListsAndKeys";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +15,7 @@ root.render(
     <ReactStateAndLifecycle />
     <ReactHandlingEvents />
     <ReactConditionalRendering />
-
+    <ReactListsAndKeys />
     
   </>
 );
