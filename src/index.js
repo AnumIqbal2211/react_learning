@@ -1,16 +1,24 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ReactUseEffect from "./components/ReactUseEffect";
-import ReactRenderingElements from "./components/ReactRenderingElements";
 import ReactCompAndProp from "./components/ReactCompAndProp";
+import ReactStateAndLifecycle from "./components/ReactStateAndLifecycle";
+import ReactHandlingEvents from "./components/ReactHandlingEvents";
+import ReactConditionalRendering from "./components/ReactConditionalRendering";
+import ReactListsAndKeys from "./components/ReactListsAndKeys";
+import ReactForm from "./components/ReactForm";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <ReactUseEffect />
-    <ReactRenderingElements />
     <ReactCompAndProp />
+    <ReactStateAndLifecycle />
+    <ReactHandlingEvents />
+    <ReactConditionalRendering />
+    <ReactListsAndKeys />
+    <ReactForm />
+    
   </>
 );
 
