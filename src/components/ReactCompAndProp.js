@@ -1,7 +1,7 @@
 function Info(data) {
   return (
     <div>
-      <h1>{data.name}</h1>
+      <h2>{data.name}</h2>
     </div>
   );
 }
@@ -10,6 +10,7 @@ function Res() {
   return (
     <div>
       <Info name="Anum" />
+      <Info name= "Iqbal" />
     </div>
   );
 }
