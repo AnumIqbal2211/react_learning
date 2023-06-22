@@ -1,16 +1,16 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ReactUseEffect from "./components/ReactUseEffect";
-import ReactRenderingElements from "./components/ReactRenderingElements";
 import ReactCompAndProp from "./components/ReactCompAndProp";
+import ReactStateAndLifecycle from "./components/ReactStateAndLifecycle";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <ReactUseEffect />
-    <ReactRenderingElements />
     <ReactCompAndProp />
+    <ReactStateAndLifecycle />
+    
   </>
 );
 
